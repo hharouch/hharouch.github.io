@@ -26,9 +26,44 @@ Text significa que va més enllà del text, imatges, videos, enllaços, gifts, s
       background-color: #2c2c2c !important;
       border-color: #444;
     }
+   <!-- Les pàgines web que comencen amb CDN Content Delivery Network són molt important en informàtica
+    i en codi perquè fan possible incloure en el nostre codi una biblioteca. En aquest cas la biblioteca és
+    del tipus CCS "Cascade style Sheet"= Fulls D'estils en Cascada. No sabré perquè acaba en .CSS.
+    CSS és un llenguatge de programació diferent a HTML. Amb CSS podem canviar l'estil de la web per
+    exemple tipus de lletra, marges, la mida de la lletra, els colors, estil...etc. En canvi, amb HTML
+    programem només l'esquelet o l'estructura bàsica que uneix tot. Per últim existeix el Javascript
+    que permet el comportament interactiu i els canvis. La suma de HTML  + Javascript + CSS permet fer
+    qualsevol web. Els videojocs tindran molt Javascript. Per exemple: Si nosaltres fosim una pàgina web
+    seriem l'esquelet seria= HTML , després CSS seria la nosttra orba inclós la nostra carn i el Javascript
+    ens permetria respirar, moure, estudiar..etc. En una casa seria HTML = les bigues i les parets, 
+    l'estil seria les pintures de les parets i el Javascript seria l'alarma, el timbre, els llumss o el rec
+    automàtic-->
     body[data-bs-theme="dark"] .dropdown-item {
       color: #f8f9fa !important;
-    }
+    /*L'etiqueta de dalt significa que canviem de llenguatge i ara escrivim en CSS. Ara els comentaris
+     es posen amb un "asterisc" i una barra inclinada, a diferència dels comentaris del HTML que és
+     posava menor que <!-- -->. Si porta asterisc barra és un comentari multilineal i si 
+     porta només dos barres a l'inici es un comentari d'una línea per Javascript.*/
+     /*L'estructura del CSS no té el menor que ni major que. Sempre té l'estructura
+     etiqueta {
+     propietat1: valor1;
+     propietat2: valor2
+     }
+    
+     Exemles:
+     En el codi HTML jo he escrit un títol: <h1> Estudiem la mandarina</h1>
+     H1 és una etiqueta de HTML que permet fer títols fer més grans, h2 faria títols més petits fins h6 molt petit.
+     En el codi CSS el que fem es modificar el HTML, si vull modificar el títol h1 he de'escriure:
+     ¨h1{
+     color:yellow;
+     font-size:33px;
+     font-family:sans-serif;
+     }
+     Amb això hem aconseguit canviar l'estil del títo, concretament el color ara es groc, abans era negre,
+     la mida és 33 pixels i el tipus de lletra és sans-serif*/
+     /*Només hi han tres tipus de famílies de lletra: serif, sans-serif i monospace
+    
+     1.Submenús en mode fosc */
     body[data-bs-theme="dark"] .dropdown-item:hover,
     body[data-bs-theme="dark"] .dropdown-item:focus {
       background-color: #3c3c3c !important;
